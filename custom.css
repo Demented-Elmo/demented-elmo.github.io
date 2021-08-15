@@ -138,9 +138,6 @@ html .mention.wrapper-3WhCwL.mention.interactive{
 /*Hides CSS Tips*/
 .markdown-hover {display: none;}
 
-/*Remove Note Box*/
-#app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj {display: none}
-
 /*Remove Set A Server Nickname Button*/
 .setIdentityLink-1t8Ahd {display: none}
 
