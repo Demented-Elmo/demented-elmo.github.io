@@ -1,2 +1,2 @@
 # demented-elmo.github.io
-cool guy
+This repo is for Betterdiscord Custom CSS
