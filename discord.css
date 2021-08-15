@@ -141,6 +141,28 @@ html .mention.wrapper-3WhCwL.mention.interactive{
 /*Remove Set A Server Nickname Button*/
 .setIdentityLink-1t8Ahd {display: none}
 
+/*Popout Fixes*/
+#app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj {background: transparent;}
+#app-mount [data-user-id="810543628307922955"] .textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9{display: none;}
+#app-mount [data-user-id="810543628307922955"] .bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9{display: none;}
+#app-mount [data-user-id="810543628307922955"] .button-2IFFQ4.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.buttonSize-AQY2mE.fullWidth-1orjjo.grow-q77ONN{display: none;}
+#app-mount [data-user-id="810543628307922955"] .headerTextNormal-2mGWX3.headerText-1HLrL7.flex-1O1GKY.marginBottom8-AtZOdT.base-1x0h_U.size12-3cLvbJ{display: none;}
+#app-mount [data-user-id="810543628307922955"] .bodyAlignCenter-1KzvJk.body-ZAhrcj.flex-1O1GKY.alignCenter-1dQNNs{display: none;}
+
+/*Personal Colored Roles*/
+#app-mount [data-user-id="810543628307922955"] .role-2irmRk {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;}
+.roleCircle-3xAZ1j::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: inherit;
+  opacity: 0.4;
+  z-index: -1}
+
 /*Toggle Buttons*/
 .inviteToolbar-3F-l2g{display: none}
 .separator-2I32lJ{display: none;}
