@@ -45,13 +45,6 @@
 .sidebarRegionScroller-3MXcoP {flex: 0 0 auto;}
 .contentColumnDefault-1VQkGM {max-width: unset;}
 
-/*Resize Channel List*/
-:root { --sidebar-initial-width: 240px; }
-.sidebar-2K8pFh {
-  resize: horizontal;
-  width: var(--sidebar-initial-width);}
-.bannerImage-3KhIJ6 { width: 100%; };
-
 /*Pin Home Button*/
 .guilds-1SWlCJ .tree-2wKJdG:focus {outline-color: transparent;}
 .guilds-1SWlCJ .scroller-1Bvpku {
