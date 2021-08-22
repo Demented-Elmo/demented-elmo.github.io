@@ -12,8 +12,20 @@
 /*Button Background*/
 .scroller-3BxosC{background-color: #09061F;}
 
+/*Typing Indicator*/
+.InvisibleTyping-typingButton-invisibleTypingButton{display: none;}
+
+/*Edited Message Removal*/
+.timestampInline-yHQ6fX{display: none;}
+
 /*Danger Color*/
 .item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ{color: #C77378;}
+
+/*Channel Tabs Fix*/
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih{bottom: 30px;}
+
+/*Danger Color Highlight*/
+.item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ.focused-3afm-j{background-color: rgba(0, 0, 0, 0);}
 
 /*Better Name In Bottom*/
 .size14-e6ZScH .title-eS5yk3{font-size:13px}
