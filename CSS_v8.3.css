@@ -239,6 +239,17 @@ html .mention.wrapper-3WhCwL.mention.interactive{
 /*Remove Maximum CSS Editor Size*/
 #floating-editor-window.resizable {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
 
+/*Hover Channels Animated*/
+.mainContent-u_9PKf:hover {
+animation: UserModalButtons 0.5s normal ease;}
+.mainContent-u_9PKf .noWrap-3jynv6 {width: 100px;opacity: 1;}
+.mainContent-u_9PKf {transition: 0.2s;}
+.mainContent-u_9PKf:hover {transition: 0.2;}
+@keyframes UserModalButtons {
+0% {transform: translateY(0px);}
+45% {transform: translateY(-5px);}
+90% {transform: translateY(0px);}}
+
 /*Rainbow Wave Role Mentions*/
 .roleMention-2Bj0ju.desaturate-qhyunI.wrapper-3WhCwL.mention{
   background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
