@@ -278,8 +278,6 @@ animation: UserModalButtons 0.5s normal ease;}
 .item-PXvHYJ.themed-OHr7kt[aria-controls*="language-tab"]{display: none;}
 .item-PXvHYJ.themed-OHr7kt[aria-controls*="billing-tab"]{display: none;}
 .item-PXvHYJ.themed-OHr7kt[aria-controls*="hypesquad-online-tab"]{display: none;}
-.header-2RyJ0Y{display: none;}
-.bd-sidebar-header{display: none;}
 .item-PXvHYJ.themed-OHr7kt[aria-controls*="library-inventory-tab"]{color: #74DAC1;}
 .theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="library-inventory-tab"]{--background-modifier-hover: rgba(116, 218, 193, 0.103) !important;}
 .theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="library-inventory-tab"][aria-selected="true"]{background-color: #74DAC1!important; color: white;}
