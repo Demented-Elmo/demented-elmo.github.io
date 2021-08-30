@@ -36,7 +36,7 @@
 /*Background Image*/
 #app-mount [data-user-id="810543628307922955"].userPopout-xaxa6l {background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/876122913869299782/Screen_Shot_2021-08-14_at_9.09.59_AM.png);}
 
-/* Hide Nitro Icon On Banners */
+/*Hide Nitro Icon On Banners*/
 .bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {display: none;}
 
 /*Emoji Picker*/
@@ -95,8 +95,8 @@ top: 0.25ex;}
 .searchBar-6Kv8R2{pointer-events: none;}
 
 /*Channel List Fix*/
-.sidebar-2K8pFh{width: 253}
-.bannerImage-3KhIJ6 { width: 100%; }
+.sidebar-2K8pFh{width: 253px}
+.bannerImage-3KhIJ6 {width: 100%;}
 
 /*Settings Spacing*/
 .sidebarRegion-VFTUkN,
