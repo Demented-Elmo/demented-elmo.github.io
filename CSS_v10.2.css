@@ -90,9 +90,10 @@ top: 0.25ex;}
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
   content: "BetterDiscord  CSS by Demented_Elmo!";
   visibility: visible;
-  font-size: 12px;
+  font-size: 13px;
   -webkit-text-fill-color: #B9BBBE;}
 .searchBar-6Kv8R2{pointer-events: none;}
+.searchBarComponent-32dTOx{padding-right: 1px;}
 
 /*Channel List Fix*/
 .sidebar-2K8pFh{width: 253px}
