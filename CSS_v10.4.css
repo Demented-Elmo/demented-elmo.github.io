@@ -70,6 +70,7 @@
 .toolbar-1t6TWx a {display: none;}
 [aria-label*="Member List"]{display:none}
 [aria-label*="Mute channel"]{display:none}
+[aria-label*="Inbox"]{display: none;}
 
 /*Emoji Fix*/
 img.emote {
