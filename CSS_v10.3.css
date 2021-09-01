@@ -285,6 +285,18 @@ animation: UserModalButtons 0.5s normal ease;}
 .theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="game-activity-tab"]{--background-modifier-hover: rgba(240, 186, 93, 0.103) !important;}
 .theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="game-activity-tab"][aria-selected="true"]{background-color: #F0BB5D !important; color: white;}
 .theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="logout-tab"]{--background-modifier-hover: rgba(219, 81, 76, 0.103) !important;}
+.item-PXvHYJ.themed-OHr7kt[aria-controls*="customcss-tab"]{color: rgb(90, 211, 54);}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="customcss-tab"]{--background-modifier-hover: rgba(90, 211, 54, 0.103) !important;}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="customcss-tab"][aria-selected="true"]{background-color: rgb(90, 211, 54) !important; color: white;}
+.item-PXvHYJ.themed-OHr7kt[aria-controls*="plugins-tab"]{color: rgb(19, 129, 255);}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="plugins-tab"]{--background-modifier-hover: rgba(19, 129, 255, 0.103) !important;}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="plugins-tab"][aria-selected="true"]{background-color: rgb(19, 129, 255) !important; color: white;}
+.item-PXvHYJ.themed-OHr7kt[aria-controls*="themes-tab"]{color: rgb(248, 51, 51);}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="themes-tab"]{--background-modifier-hover: rgba(248, 51, 51, 0.103) !important;}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="themes-tab"][aria-selected="true"]{background-color: rgb(248, 51, 51) !important; color: white;}
+.item-PXvHYJ.themed-OHr7kt[aria-controls*="hypesquad-online-tab"]{color: #7EDDC7;}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="hypesquad-online-tab"]{--background-modifier-hover: rgba(126, 221, 199, 0.103) !important;}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="hypesquad-online-tab"][aria-selected="true"]{background-color: #7EDDC7 !important; color: white;}
 
 /*Toggle Buttons*/
 .inviteToolbar-3F-l2g{display: none}
