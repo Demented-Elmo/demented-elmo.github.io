@@ -1,11 +1,12 @@
 # demented-elmo.github.io
 
+
 /*Hide Discovery*/
 .tutorialContainer-30WoTp+div {display:none}
 .tutorialContainer-30WoTp+div {display:none}
 
 /*Thread Notifcations*/
-.container-3O_wAf {display : none}
+.container-3O_wAf {display:none}
 
 /*Server Tooltips*/
 .tooltipPrimary-1d1ph4, .toolbar-2bjZV7 {background-color: #09061F !important;}
@@ -36,8 +37,9 @@
 /*Background Image*/
 #app-mount [data-user-id="810543628307922955"].userPopout-xaxa6l {background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/876122913869299782/Screen_Shot_2021-08-14_at_9.09.59_AM.png);}
 
-/*Hide Nitro Icon On Banners*/
+/*Banner Fixes*/
 .bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {display: none;}
+.bannerOverlay-1uIerX{display: none;}
 
 /*Emoji Picker*/
 .sprite-2iCowe {background: url("https://cdn.discordapp.com/attachments/872597872472907896/876198404605231204/Emojis.png");}
@@ -62,23 +64,15 @@
 #private-channels [href="/discovery"] {display: none}
 #private-channels [href="/store"] {display: none}
 
-/*Selection Color*/
-::selection {background-color: rgba(24, 160, 244, 0.503);}
+/*Remove Maximum CSS Editor Size*/
+#floating-editor-window.resizable {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
 
-/*Hide Top Bar Icons*/
-.search-36MZv- + div{display: none;}
-.toolbar-1t6TWx a {display: none;}
-[aria-label*="Member List"]{display:none}
-[aria-label*="Mute channel"]{display:none}
-[aria-label*="Inbox"]{display: none;}
-
-/*Emoji Fix*/
-img.emote {
-text-indent: 0;
-white-space: nowrap;
-width: auto;
-position: relative;
-top: 0.25ex;}
+/*Textbox Text*/
+.placeholder-37qJjk {visibility: hidden;}
+.placeholder-37qJjk::before {
+  content: "What's on your mind?";
+  font-size: 1rem;
+  visibility: visible;}
 
 /*Search Bar Text*/
 .public-DraftEditorPlaceholder-root {visibility: hidden;}
@@ -99,6 +93,34 @@ top: 0.25ex;}
 /*Channel List Fix*/
 .sidebar-2K8pFh{width: 253px}
 .bannerImage-3KhIJ6 {width: 100%;}
+
+/*Hide Social Links And Info*/
+.socialLinks-3jqNFy{display: none}
+.info-1VyQPT{display: none}
+
+/*Hides CSS Tips*/
+.markdown-hover {display: none;}
+
+/*Remove Set A Server Nickname Button*/
+.setIdentityLink-1t8Ahd {display: none}
+
+/*Selection Color*/
+::selection {background-color: rgba(24, 160, 244, 0.503);}
+
+/*Hide Top Bar Icons*/
+.search-36MZv- + div{display: none;}
+.toolbar-1t6TWx a {display: none;}
+[aria-label*="Member List"]{display:none}
+[aria-label*="Mute channel"]{display:none}
+[aria-label*="Inbox"]{display: none;}
+
+/*Emoji Fix*/
+img.emote {
+text-indent: 0;
+white-space: nowrap;
+width: auto;
+position: relative;
+top: 0.25ex;}
 
 /*Settings Spacing*/
 .sidebarRegion-VFTUkN,
@@ -200,26 +222,6 @@ html .mention.wrapper-3WhCwL.mention.interactive{
   opacity: 0.3;
   z-index: -1}
 
-/*Hides Banner Editor On Popout*/
-.bannerOverlay-1uIerX{display: none;}
-
-/*Textbox Text*/
-.placeholder-37qJjk {visibility: hidden;}
-.placeholder-37qJjk::before {
-  content: "What's on your mind?";
-  font-size: 1rem;
-  visibility: visible;}
-
-/*Hide Social Links And Info*/
-.socialLinks-3jqNFy{display: none}
-.info-1VyQPT{display: none}
-
-/*Hides CSS Tips*/
-.markdown-hover {display: none;}
-
-/*Remove Set A Server Nickname Button*/
-.setIdentityLink-1t8Ahd {display: none}
-
 /*Popout Addition Fixes*/
 #app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj {background: transparent;}
 #app-mount [data-user-id="810543628307922955"] .textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9{display: none;}
@@ -241,9 +243,6 @@ html .mention.wrapper-3WhCwL.mention.interactive{
   background: inherit;
   opacity: 0.4;
   z-index: -1}
-
-/*Remove Maximum CSS Editor Size*/
-#floating-editor-window.resizable {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
 
 /*Hover Channels Animated*/
 .mainContent-u_9PKf:hover {
