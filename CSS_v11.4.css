@@ -101,6 +101,7 @@
 [aria-label*="Member List"]{display:none}
 [aria-label*="Mute channel"]{display:none}
 [aria-label*="Inbox"]{display: none;}
+[aria-label*="Threads"]{display: none;}
 
 /*Emoji Fix*/
 img.emote {
@@ -124,6 +125,7 @@ top: 0.25ex;}
 .theme-dark .item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ.focused-3afm-j{background-color: rgba(216, 39, 33, 0.103)!important; color: rgb(216, 40, 33);}
 .theme-dark .item-1tOPte.labelContainer-1BLJti.colorBrand-ROmMP1.colorDefault-2K3EoJ.focused-3afm-j{background-color: rgba(91, 100, 234, 0.103)!important; color: rgb(91, 100, 234);}
 .theme-dark .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j{background-color: #252631!important; color: #B9BBBE;}
+.theme-dark .labelContainer-1BLJti.colorPremium-p4p7qO.colorDefault-2K3EoJ.focused-3afm-j{background-color: rgba(239, 123, 243, 0.103) !important; color: #EE7BF3;}
 .scroller-3BxosC{background-color: #181924;}
 
 /*Pin Home Button*/
