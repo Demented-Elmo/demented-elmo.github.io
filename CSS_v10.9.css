@@ -8,11 +8,6 @@
 /*Thread Notifcations*/
 .container-3O_wAf {display:none}
 
-/*Server Tooltips*/
-.tooltipPrimary-1d1ph4, .toolbar-2bjZV7 {background-color: #09061F !important;}
-.tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {border-top-color: #09061F !important;}
-.listItemTooltip-1JmWJ7 {color: #C77378 !important;}
-
 /*Button Background*/
 .scroller-3BxosC{background-color: #09061F;}
 
@@ -67,6 +62,23 @@
 /*Remove Maximum CSS Editor Size*/
 #floating-editor-window.resizable {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
 
+/*Channel List Fix*/
+.sidebar-2K8pFh{width: 253px}
+.bannerImage-3KhIJ6 {width: 100%;}
+
+/*Hide Social Links And Info*/
+.socialLinks-3jqNFy{display: none}
+.info-1VyQPT{display: none}
+
+/*Hides CSS Tips*/
+.markdown-hover {display: none;}
+
+/*Remove Set A Server Nickname Button*/
+.setIdentityLink-1t8Ahd {display: none}
+
+/*Selection Color*/
+::selection {background-color: rgba(24, 160, 244, 0.503);}
+
 /*Textbox Text*/
 .placeholder-37qJjk {visibility: hidden;}
 .placeholder-37qJjk::before {
@@ -90,23 +102,6 @@
 .searchBar-6Kv8R2{pointer-events: none;}
 .searchBarComponent-32dTOx{padding-right: 1px;}
 
-/*Channel List Fix*/
-.sidebar-2K8pFh{width: 253px}
-.bannerImage-3KhIJ6 {width: 100%;}
-
-/*Hide Social Links And Info*/
-.socialLinks-3jqNFy{display: none}
-.info-1VyQPT{display: none}
-
-/*Hides CSS Tips*/
-.markdown-hover {display: none;}
-
-/*Remove Set A Server Nickname Button*/
-.setIdentityLink-1t8Ahd {display: none}
-
-/*Selection Color*/
-::selection {background-color: rgba(24, 160, 244, 0.503);}
-
 /*Hide Top Bar Icons*/
 .search-36MZv- + div{display: none;}
 .toolbar-1t6TWx a {display: none;}
@@ -126,6 +121,11 @@ top: 0.25ex;}
 .sidebarRegion-VFTUkN,
 .sidebarRegionScroller-3MXcoP {flex: 0 0 auto;}
 .contentColumnDefault-1VQkGM {max-width: unset;}
+
+/*Server Tooltips*/
+.tooltipPrimary-1d1ph4, .toolbar-2bjZV7 {background-color: #09061F !important;}
+.tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {border-top-color: #09061F !important;}
+.listItemTooltip-1JmWJ7 {color: #C77378 !important;}
 
 /*Pin Home Button*/
 .guilds-1SWlCJ .tree-2wKJdG:focus {outline-color: transparent;}
