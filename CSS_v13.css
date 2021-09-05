@@ -402,7 +402,7 @@ div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), 
 
 /*Notes*/
 .channelSeparator-1MxuvT{display:none}
-.inner-2P4tQO{display:none}
+.popout-xwjvsX.messagesPopoutWrap-1MQ1bW.themedPopout-1TrfdI .inner-2P4tQO{display:none}
 .tab-PQvTH4.item-PXvHYJ.themed-OHr7kt[aria-label="Channel"]{display:none}
 .tab-PQvTH4.item-PXvHYJ.themed-OHr7kt[aria-label="Server"]{display:none}
 .tab-PQvTH4.item-PXvHYJ.themed-OHr7kt[aria-label="All Servers"]{visibility: hidden;}
