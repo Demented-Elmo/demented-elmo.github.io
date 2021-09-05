@@ -47,6 +47,7 @@
 
 /*Selection Color*/
 ::selection {background-color: rgba(24, 160, 244, 0.503);}
+.monaco-editor .selected-text { background-color: rgba(24, 160, 244, 0.503) !important;}
 
 /*Textbox Text*/
 .placeholder-37qJjk {visibility: hidden;}
