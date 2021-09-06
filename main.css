@@ -11,6 +11,9 @@
 /*Edited Message Removal*/
 #app-mount [data-user-id="810543628307922955"] .timestampInline-yHQ6fX{display: none;}
 
+/*Timestamp Removal*/
+.header-23xsNx > .timestamp-3ZCmNB {display: none;}
+
 /*Banner Fixes*/
 .bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {display: none;}
 .bannerOverlay-1uIerX{display: none;}
@@ -83,10 +86,6 @@ top: 0.25ex;}
 .sidebarRegion-VFTUkN,
 .sidebarRegionScroller-3MXcoP {flex: 0 0 auto;}
 .contentColumnDefault-1VQkGM {max-width: unset;}
-
-/*Server Tooltips*/
-.tooltipPrimary-1d1ph4, .toolbar-2bjZV7 {background-color: #181924 !important;}
-.tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {border-top-color: #181924 !important;}
 
 /*Right Click Colors*/
 .item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ{color: rgb(216, 40, 33);}
@@ -221,13 +220,6 @@ animation: UserModalButtons 0.5s normal ease;}
 @keyframes gradient-border {
   from {background-position: 0 0;}
   to {background-position: 130% 0;}}
-
-/*Remove Account Removal (Ironic)*/
-.disableButton-220a9y{display: none}
-.lookOutlined-3sRXeN.colorRed-1TFJan{display: none}
-.colorStandard-2KCXvj.size14-e6ZScH.h5-18_1nd.title-3sZWYQ.defaultMarginh5-2mL-bP{display:none}
-.colorStandard-2KCXvj.size14-e6ZScH.description-3_Ncsb.formText-3fs7AJ.description-31A0cy.modeDefault-3a2Ph1{display:none}
-.divider-3573oO.marginTop40-i-78cZ{display:none}
 
 /*Search Bar*/
 .searchLearnMore-3SQUAj[aria-label*="Learn More"]{display:none}
