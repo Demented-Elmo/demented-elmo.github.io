@@ -9,7 +9,7 @@
 .container-3O_wAf {display:none}
 
 /*Edited Message Removal*/
-.timestampInline-yHQ6fX{display: none;}
+#app-mount [data-user-id="810543628307922955"] .timestampInline-yHQ6fX{display: none;}
 
 /*Banner Fixes*/
 .bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {display: none;}
@@ -337,6 +337,16 @@ div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), 
 #message-translator-search-translation, #message-actions-translator-search-translation {display:none;}
 #channel-context-invite-people{display: none;}
 #channel-context-showhiddenchannels-permissions{display:none}
+#textarea-context-chataliases-add-alias{display:none}
+#textarea-context-chatfilter-add-filter{display:none}
+#guild-context-serverfolders-auto-read-folder{display:none}
+#guild-context-membercount-toggle{display:none}
+#guild-context-serverfolders-submenu-add{display:none}
+#{display:none}
+#{display:none}
+#{display:none}
+#{display:none}
+#{display:none}
 
 /*FROM THIS POINT ON, THE CODE IS ONLY PERSONAL PREFERENCES SPECIFICALLY FOR DEMENTED_ELMO#1234*/
 
