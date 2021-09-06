@@ -334,6 +334,8 @@ div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), 
 #guild-context-serverfolders-auto-read-folder{display:none}
 #guild-context-membercount-toggle{display:none}
 #guild-context-serverfolders-submenu-add{display:none}
+#message-chataliases-add-alias{display:none}
+#message-chatfilter-add-filter{display:none}
 
 /*FROM THIS POINT ON, THE CODE IS ONLY PERSONAL PREFERENCES SPECIFICALLY FOR DEMENTED_ELMO#1234*/
 
