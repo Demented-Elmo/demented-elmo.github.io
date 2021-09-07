@@ -3,14 +3,8 @@
 /*Hide Discovery*/
 .tutorialContainer-30WoTp+div {display:none}
 
-/*Hide Floating Stream Preview*/
-.pictureInPictureVideo-2iKsGg {display: none;}
-
 /*Thread Notifcations*/
 .container-3O_wAf {display:none}
-
-/*Edited Message Removal*/
-#app-mount [data-user-id="810543628307922955"] .timestampInline-yHQ6fX{display: none;}
 
 /*Timestamp Removal*/
 .header-23xsNx > .timestamp-3ZCmNB {display: none;}
@@ -66,10 +60,8 @@
 /*Hide Top Bar Icons*/
 [aria-label*="Help"]{display: none;}
 [aria-label*="New Group DM"]{display: none;}
-[aria-label*="Member List"]{display:none}
 [aria-label*="Mute channel"]{display:none}
 [aria-label*="Inbox"]{display: none;}
-[aria-label*="Threads"]{display: none;}
 [aria-label*="Start Video Call"]{display: none;}
 
 /*Emoji Fix*/
@@ -219,23 +211,6 @@ animation: UserModalButtons 0.5s normal ease;}
   from {background-position: 0 0;}
   to {background-position: 130% 0;}}
 
-/*Search Bar*/
-.searchLearnMore-3SQUAj[aria-label*="Learn More"]{display:none}
-.searchResultsWrap-3-pOjs[aria-label*="Search Results"]{width:350px}
-#search-results-0.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-1.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-2.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-3.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-4.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-5.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-0.option-96V44q.user-O3Czj0{display:none}
-#search-results-1.option-96V44q.user-O3Czj0{display:none}
-#search-results-2.option-96V44q.user-O3Czj0{display:none}
-#search-results-3.option-96V44q.user-O3Czj0{display:none}
-#search-results-4.option-96V44q.user-O3Czj0{display:none}
-#search-results-5.option-96V44q.user-O3Czj0{display:none}
-.resultsGroup-r_nuzN::before{display:none}
-
 /*Hover DMS animated*/
 .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:hover {
 animation: UserModalButtons 0.5s normal ease;}
@@ -251,19 +226,6 @@ animation: UserModalButtons 0.5s normal ease;}
 0% {transform: translateY(0px);}
 45% {transform: translateY(-5px);}
 90% {transform: translateY(0px);}}
-
-/*Member Count*/
-[aria-label="Members"]{bottom: 10px}
-div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
-  animation: gradient-border 4s linear infinite;
-  background-size: 100% 100%;
-  color: transparent !important;
-  -webkit-background-clip: text;
-  background-clip: text;
-  z-index: 1;}
-@keyframes gradient-border {
-  from {background-position: 0 0;}
-  to {background-position: 130% 0;}}
 
 /*Settings*/
 .item-PXvHYJ.themed-OHr7kt[aria-controls*="language-tab"]{display: none;}
