@@ -309,15 +309,5 @@ animation: UserModalButtons 0.5s normal ease;}
 /*Background Image*/
 #app-mount [data-user-id="810543628307922955"].userPopout-xaxa6l {background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/876122913869299782/Screen_Shot_2021-08-14_at_9.09.59_AM.png);}
 
-/*Credit Text*/
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx {visibility: hidden;}
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
-  content: "BetterDiscord  CSS by Demented_Elmo!";
-  visibility: visible;
-  font-size: 13px;
-  -webkit-text-fill-color: #B9BBBE;}
-.searchBar-6Kv8R2{pointer-events: none;}
-.searchBarComponent-32dTOx{padding-right: 1px;}
-
 /*Popout Addition Fixes*/
 #app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj {background: transparent;}
