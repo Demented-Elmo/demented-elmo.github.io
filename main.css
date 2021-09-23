@@ -265,6 +265,31 @@ div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), 
   from {background-position: 0 0;}
   to {background-position: 130% 0;}}
 
+/*Cog Right Click*/
+#user-settings-cog-Profile_Customization{display:none}
+#user-settings-cog-My_Account{display:none}
+#user-settings-cog-Privacy___Safety{display:none}
+#user-settings-cog-Authorized_Apps{display:none}
+#user-settings-cog-Connections{display:none}
+#user-settings-cog-Discord_Nitro{display:none}
+#user-settings-cog-Nitro_Server_Boost{display:none}
+#user-settings-cog-Library_Inventory{display:none}
+#user-settings-cog-Billing{display:none}
+#user-settings-cog-Appearance{display:none}
+#user-settings-cog-Accessibility{display:none}
+#user-settings-cog-Voice___Video{display:none}
+#user-settings-cog-Text___Images{display:none}
+#user-settings-cog-Notifications{display:none}
+#user-settings-cog-Keybinds{display:none}
+#user-settings-cog-Language{display:none}
+#user-settings-cog-Advanced{display:none}
+#user-settings-cog-Game_Activity{display:none}
+#user-settings-cog-changelog{display:none}
+#user-settings-cog-Hypesquad_Online{display:none}
+#user-settings-cog-Subscriptions{display:none}
+#user-settings-cog-Streamer_Mode{display:none}
+#user-settings-cog-BetterDiscord--Settings{display:none}
+
 /*Settings*/
 .item-PXvHYJ.themed-OHr7kt[aria-controls*="language-tab"]{display: none;}
 .item-PXvHYJ.themed-OHr7kt[aria-controls*="billing-tab"]{display: none;}
@@ -334,6 +359,15 @@ div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), 
 #guild-context-serverfolders-submenu-add{display:none}
 #message-chataliases-add-alias{display:none}
 #message-chatfilter-add-filter{display:none}
+
+/*YABOIWQ Badge*/
+#app-mount [data-user-id="709377715320651838"] .badgeList-1R1WgZ::after,
+#app-mount [data-user-id="709377715320651838"] .profileBadges-ohc0Vu::after,
+#app-mount [data-user-id="709377715320651838"] .badges-XRnWAp::after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://i.imgur.com/lBSnV7M.gif) center / 100% 100%;}
 
 /*FROM THIS POINT ON, THE CODE IS ONLY PERSONAL PREFERENCES SPECIFICALLY FOR DEMENTED_ELMO#1234*/
 
