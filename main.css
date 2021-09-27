@@ -6,6 +6,9 @@
 /*Hide Floating Stream Preview*/
 .pictureInPictureVideo-2iKsGg {display: none;}
 
+/*Copy Raw Message Button Removal*/
+.copr-button[aria-label="Copy About me"]{display:none}
+
 /*Thread Notifcations*/
 .container-3O_wAf {display:none}
 
@@ -360,6 +363,8 @@ div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), 
 #message-chataliases-add-alias{display:none}
 #message-chatfilter-add-filter{display:none}
 
+/*FROM THIS POINT ON, THE CODE IS ONLY FOR EDITING OTHER USERS*/
+
 /*YABOIWQ Badge*/
 #app-mount [data-user-id="709377715320651838"] .badgeList-1R1WgZ::after,
 #app-mount [data-user-id="709377715320651838"] .profileBadges-ohc0Vu::after,
@@ -368,6 +373,9 @@ div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), 
   width: 22px;
   height: 22px;
   background: url(https://i.imgur.com/lBSnV7M.gif) center / 100% 100%;}
+
+/*Tozy Hypesquad Removal*/
+#app-mount [data-user-id="310923492600053762"] .profileBadges-ohc0Vu [src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {display: none;}
 
 /*FROM THIS POINT ON, THE CODE IS ONLY PERSONAL PREFERENCES SPECIFICALLY FOR DEMENTED_ELMO#1234*/
 
@@ -459,3 +467,17 @@ div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), 
     height: 150px;
     background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/883530279539572816/Background.png);
     background-size: 100%;}
+
+/*Alt Additions*/
+#app-mount [data-user-id="861715978484056066"] .divider-ewBQKj{display:none}
+#app-mount [data-user-id="861715978484056066"] .aboutMeSection-1Fw5Ia{display:none}
+#app-mount [data-user-id="861715978484056066"] .headerTagDiscriminatorNoNickname-D-AYUN {visibility: hidden;}
+#app-mount [data-user-id="861715978484056066"] .headerTagDiscriminatorNoNickname-D-AYUN::before{content: "#1234"; visibility: visible;}
+#app-mount [data-user-id="861715978484056066"] .textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9{display: none;}
+#app-mount [data-user-id="861715978484056066"] .bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9{display: none;}
+#app-mount [data-user-id="825795894510354442"] .divider-ewBQKj{display:none}
+#app-mount [data-user-id="825795894510354442"] .aboutMeSection-1Fw5Ia{display:none}
+#app-mount [data-user-id="825795894510354442"] .headerTagDiscriminatorNoNickname-D-AYUN {visibility: hidden;}
+#app-mount [data-user-id="825795894510354442"] .headerTagDiscriminatorNoNickname-D-AYUN::before{content: "#1234"; visibility: visible;}
+#app-mount [data-user-id="825795894510354442"] .textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9{display: none;}
+#app-mount [data-user-id="825795894510354442"] .bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9{display: none;}
