@@ -3,6 +3,9 @@
 /*Hide Discovery*/
 .tutorialContainer-30WoTp+div {display:none}
 
+/*Add A Server*/
+.tutorialContainer-30WoTp {display:none}
+
 /*Hide Floating Stream Preview*/
 .pictureInPictureVideo-2iKsGg {display: none;}
 
@@ -17,9 +20,6 @@
 .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8 .overflow-WK9Ogt{font-size: 17px;}
 .channel-2QD9_O.container-2Pjhx-.selected-aXhQR6 .subtext-1RtU34{display:none}
 .channel-2QD9_O.container-2Pjhx-.selected-aXhQR6 .overflow-WK9Ogt{font-size: 17px;}
-
-/*Edited Message Removal*/
-#app-mount [data-user-id="810543628307922955"] .timestampInline-yHQ6fX{display: none;}
 
 /*Timestamp Removal*/
 .header-23xsNx > .timestamp-3ZCmNB {display: none;}
@@ -391,122 +391,3 @@ div#MemberCount span{background-image: linear-gradient(to left,rgb(51, 255, 0), 
 #guild-context-serverfolders-submenu-add{display:none}
 #message-chataliases-add-alias{display:none}
 #message-chatfilter-add-filter{display:none}
-
-/*FROM THIS POINT ON, THE CODE IS ONLY FOR EDITING OTHER USERS*/
-
-/*YABOIWQ Badge*/
-#app-mount [data-user-id="709377715320651838"] .badgeList-1R1WgZ::after,
-#app-mount [data-user-id="709377715320651838"] .profileBadges-ohc0Vu::after,
-#app-mount [data-user-id="709377715320651838"] .badges-XRnWAp::after {
-  content: "";
-  width: 22px;
-  height: 22px;
-  background: url(https://i.imgur.com/lBSnV7M.gif) center / 100% 100%;}
-
-/*Tozy Hypesquad Removal*/
-#app-mount [data-user-id="310923492600053762"] .profileBadges-ohc0Vu [src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {display: none;}
-
-/*FROM THIS POINT ON, THE CODE IS ONLY PERSONAL PREFERENCES SPECIFICALLY FOR DEMENTED_ELMO#1234*/
-
-/*Channel Tabs Fix*/
-.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih{bottom: 30px;}
-
-/*Typing Indicator*/
-.InvisibleTyping-typingButton-invisibleTypingButton{display: none;}
-
-/*Better Name In Bottom*/
-.size14-e6ZScH .title-eS5yk3{font-size:13px}
-
-/*Background Image*/
-#app-mount [data-user-id="810543628307922955"].userPopout-xaxa6l {background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/876122913869299782/Screen_Shot_2021-08-14_at_9.09.59_AM.png);}
-
-/*Badge Fix*/
-#app-mount [data-user-id="810543628307922955"] .container-q03LZO{border: none;}
-
-/*Removal Of User Numbers*/
-#app-mount [data-user-id="810543628307922955"] .discrimBase-24vY8o{display: none;}
-
-/*Channel List Fix*/
-.sidebar-2K8pFh{width: 253px}
-.bannerImage-3KhIJ6 {width: 100%;}
-
-/*Credit Text*/
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx {visibility: hidden;}
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
-  content: "BetterDiscord  CSS by Demented_Elmo!";
-  visibility: visible;
-  font-size: 13px;
-  -webkit-text-fill-color: #B9BBBE;}
-.searchBar-6Kv8R2{pointer-events: none;}
-.searchBarComponent-32dTOx{padding-right: 1px;}
-
-/*Home Button*/
-.homeIcon-FuNwkv path {fill: transparent}
-.homeIcon-FuNwkv {
-  background: url('https://cdn.discordapp.com/attachments/840988150624682015/872518621123997756/Demented_Elmo_Eyebrows.gif') center/contain no-repeat;
-  min-width: 100px;
-  min-height: 48px;}
-
-/*Popout Addition Fixes*/
-#app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj {background: transparent;}
-#app-mount [data-user-id="810543628307922955"] .textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9{display: none;}
-#app-mount [data-user-id="810543628307922955"] .bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9{display: none;}
-#app-mount [data-user-id="810543628307922955"] .button-2IFFQ4.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.buttonSize-AQY2mE.fullWidth-1orjjo.grow-q77ONN{display: none;}
-#app-mount [data-user-id="810543628307922955"] .headerTextNormal-2mGWX3.headerText-1HLrL7.flex-1O1GKY.marginBottom8-AtZOdT.base-1x0h_U.size12-3cLvbJ{display: none;}
-#app-mount [data-user-id="810543628307922955"] .bodyAlignCenter-1KzvJk.body-ZAhrcj.flex-1O1GKY.alignCenter-1dQNNs{display: none;}
-
-/*Personal Colored Roles*/
-#app-mount [data-user-id="810543628307922955"] .role-2irmRk {
-  position: relative;
-  overflow: hidden;
-  z-index: 0;}
-.roleCircle-3xAZ1j::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: inherit;
-  opacity: 0.4;
-  z-index: -1}
-
-/*Notes*/
-.channelSeparator-1MxuvT{display:none}
-.popout-xwjvsX.messagesPopoutWrap-1MQ1bW.themedPopout-1TrfdI .inner-2P4tQO{display:none}
-.tab-PQvTH4.item-PXvHYJ.themed-OHr7kt[aria-label="Channel"]{display:none}
-.tab-PQvTH4.item-PXvHYJ.themed-OHr7kt[aria-label="Server"]{display:none}
-.tab-PQvTH4.item-PXvHYJ.themed-OHr7kt[aria-label="All Servers"]{visibility: hidden;}
-.tab-PQvTH4.item-PXvHYJ.themed-OHr7kt[aria-label="All Servers"]::before{
-    content:"Demented_Elmo's Notes";
-    visibility: visible;
-    padding-left: 190px;
-    font-size: 20px;
-    background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
-    animation: gradient-border 4s linear infinite;
-    background-size: 400% 100%;
-    color: transparent !important;
-    -webkit-background-clip: text;
-    background-clip: text;
-    z-index: 1;}
-@keyframes gradient-border {
-  from {background-position: 0 0;}
-  to {background-position: 130% 0;}}
-.quickSelect-3BxO0K{display:none}
-.title-3pkaKd{display:none}
-.header-1VS4tm.header-ykumBX{
-    height: 150px;
-    background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/883530279539572816/Background.png);
-    background-size: 100%;}
-
-/*Alt Additions*/
-#app-mount [data-user-id="861715978484056066"] .divider-ewBQKj{display:none}
-#app-mount [data-user-id="861715978484056066"] .aboutMeSection-1Fw5Ia{display:none}
-#app-mount [data-user-id="861715978484056066"] .headerTagDiscriminatorNoNickname-D-AYUN {visibility: hidden;}
-#app-mount [data-user-id="861715978484056066"] .headerTagDiscriminatorNoNickname-D-AYUN::before{content: "#1234"; visibility: visible;}
-#app-mount [data-user-id="861715978484056066"] .textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9{display: none;}
-#app-mount [data-user-id="861715978484056066"] .bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9{display: none;}
-#app-mount [data-user-id="825795894510354442"] .divider-ewBQKj{display:none}
-#app-mount [data-user-id="825795894510354442"] .aboutMeSection-1Fw5Ia{display:none}
-#app-mount [data-user-id="825795894510354442"] .headerTagDiscriminatorNoNickname-D-AYUN {visibility: hidden;}
-#app-mount [data-user-id="825795894510354442"] .headerTagDiscriminatorNoNickname-D-AYUN::before{content: "#1234"; visibility: visible;}
-#app-mount [data-user-id="825795894510354442"] .textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9{display: none;}
-#app-mount [data-user-id="825795894510354442"] .bodyTitle-1ySSKn.base-1x0h_U.size12-3cLvbJ.muted-3-7c5L.uppercase-3VWUQ9{display: none;}
