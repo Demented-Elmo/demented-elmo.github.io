@@ -3,6 +3,10 @@ When a feature is added, I will add where the change took place, the change name
 ONLY MAJOR CHANGES OR ADDITIONS WILL BE LOGGED HERE.
 Stay updated here in case of any updates! (The latest change will be at the top)
 
+10/3/2021
+• Option to hide the "Create a server" button
+• Removed all user-specific code, moved to a personal theme. If you would like it, DM me on discord: Demented_Elmo#1234
+
 9/30/2021
 • Feature that capitalizes channel names (In main: 69-73)
 • Made the right click gui more pleasing (In main: 118-133)
