@@ -78,9 +78,13 @@
 .item-PXvHYJ,
 .name-23GUGE {text-transform: capitalize;}
 
+/*New Location for Group DM*/
+[aria-label*="New Group DM"]{
+    right: 1152px;
+    opacity: 0;}
+
 /*Hide Top Bar Icons*/
 [aria-label*="Help"]{display: none;}
-[aria-label*="New Group DM"]{display: none;}
 [aria-label*="Member List"]{display:none}
 [aria-label*="Mute channel"]{display:none}
 [aria-label*="Inbox"]{display: none;}
