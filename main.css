@@ -79,8 +79,9 @@
 .name-23GUGE {text-transform: capitalize;}
 
 /*New Location for Group DM*/
+#app-mount .root-1gCeng, #app-mount .modal-yWgWj-{left:420px}
 [aria-label*="New Group DM"]{
-    right: 1152px;
+    right: 1248px;
     opacity: 0;}
 
 /*Hide Top Bar Icons*/
@@ -90,6 +91,7 @@
 [aria-label*="Inbox"]{display: none;}
 [aria-label*="Threads"]{display: none;}
 [aria-label*="Start Video Call"]{display: none;}
+.toolbar-1t6TWx .divider-3FBTu8{display:none}
 
 /*Emoji Fix*/
 img.emote {
