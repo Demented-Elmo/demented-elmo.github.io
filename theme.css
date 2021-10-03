@@ -4,6 +4,12 @@
 @import url(https://nyri4.github.io/Discolored/main.css);
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
 
+/*Notes Images*/
+[style*='background-image: url("/assets/6793e022dc1b065b21f12d6df02f91bd.svg");'] { 
+    background-image: url('https://nyri4.github.io/Discolored/assets/pinned.svg') !important; }
+#app-mount .noResults-ZTbl5V .errorStateIcon-3fNXE5{
+	background-image: url('https://nyri4.github.io/Discolored/assets/no_results.svg') !important; }
+
 :root {
 	--font:							Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	
