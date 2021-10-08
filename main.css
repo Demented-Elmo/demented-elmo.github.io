@@ -15,6 +15,9 @@
 /*Thread Notifcations*/
 .container-3O_wAf {display:none}
 
+/*Better Long File Name Viewer*/
+.audioMetadata-3zOuGv::before {min-width: 24px;}
+
 /*Timestamp Removal*/
 .header-23xsNx > .timestamp-3ZCmNB {display: none;}
 
