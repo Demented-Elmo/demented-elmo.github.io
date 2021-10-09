@@ -296,6 +296,8 @@ animation: UserModalButtons 0.5s normal ease;}
 #user-settings-cog-Subscriptions{display:none}
 #user-settings-cog-Streamer_Mode{display:none}
 #user-settings-cog-BetterDiscord--Settings{display:none}
+#user-settings-cog-BetterDiscord--pluginrepo{display:none}
+#user-settings-cog-BetterDiscord--themerepo{display:none}
 
 /*Right Click Colors*/
 .item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ{color: rgb(216, 40, 33);}
