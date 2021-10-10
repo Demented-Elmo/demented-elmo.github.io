@@ -4,7 +4,7 @@
 .tutorialContainer-32VdNI+div{display: none;}
 
 /*Hide Add A Server*/
-.scroller-1Bvpku > div:nth-child(4), .scroller-1Bvpku > div:nth-child(6){display: none;}
+.tutorialContainer-32VdNI{display: none;}
 
 /*Hide Floating Stream Preview*/
 .pictureInPictureVideo-2iKsGg {display: none;}
