@@ -39,9 +39,6 @@
 .inputDefault-_djjkz.input-cIJ7To.input-2_SIlA {display: none;}
 .footer-3UKYOU {display: none;}
 
-/*Hide GIF Tab*/
-#gif-picker-tab {display: none}
-
 /*Hide Stage Discovery And Nitro Tab*/
 #private-channels [href="/discovery"] {display: none}
 #private-channels [href="/store"] {display: none}
