@@ -24,6 +24,10 @@
 /*Timestamp Removal*/
 .header-23xsNx > .timestamp-3ZCmNB {display: none;}
 
+/*Emoji Popout Cleanup*/
+.emojiSection-3Fb9ix .colorStandard-2KCXvj.size14-e6ZScH{display:none}
+.popoutContainer-1MXdqN{width:max-content}
+
 /*Banner Fixes*/
 .bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {display: none;}
 .bannerOverlay-1uIerX{display: none;}
