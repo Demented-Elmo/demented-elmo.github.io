@@ -3,21 +3,24 @@ When a feature is added, I will add where the change took place, the change name
 ONLY MAJOR CHANGES OR ADDITIONS WILL BE LOGGED HERE.
 Stay updated here in case of any updates! (The latest change will be at the top)
 
+10/16/2021
+• Added Emoji popout cleanup
+
 10/14/2021
-• Hide Wave To User DM Suggestion (In main: 9-10)
+• Hide Wave To User DM Suggestion
 
 10/8/2021
-• Audio file name extension (In main: 21-22)
+• Audio file name extension
 
 10/3/2021
-• Option to hide the "Create a server" button (In main: 6-7)
-• Moved the Create New Group DM to the friends title icon (In main: 87-91)
+• Option to hide the "Create a server" button
+• Moved the Create New Group DM to the friends title icon
 • Removed all user-specific code, moved to a personal theme. If you would like it, DM me on discord: Demented_Elmo#1234
 
 9/30/2021
-• Feature that capitalizes channel names (In main: 81-85)
-• Made the right click gui more pleasing (In main: 164-179)
-• Disabled the member count in DMs (In main: 75-78)
+• Feature that capitalizes channel names
+• Made the right click gui more pleasing
+• Disabled the member count in DMs
 
 9/28/2021
 Created Changelog!
