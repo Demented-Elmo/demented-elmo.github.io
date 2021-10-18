@@ -1,0 +1,58 @@
+/*Main*/
+.panels-j1Uci_{border-radius: 17px;}
+.members-1998pB.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2, .contentRegionScroller-26nc1e, 
+.sidebarRegion-VFTUkN, .sidebarRegionScroller-3MXcoP, .sidebar-2K8pFh, 
+.chat-3bRxxu, .membersWrap-2h-GB4, .searchResultsWrap-3-pOjs{border-radius: 13px;}
+.minimap.slider-mouseover, .decorationsOverviewRuler{display:none}
+.sidebarRegion-VFTUkN, .sidebarRegionScroller-3MXcoP {flex: 0 0 auto;}
+.contentColumnDefault-1VQkGM {max-width: unset;}
+::selection {background-color: rgba(24, 160, 244, 0.503);}
+.monaco-editor .selected-text {background-color: rgba(24, 160, 244, 0.503) !important;}
+.placeholder-37qJjk {visibility: hidden;}
+.placeholder-37qJjk::before {
+  content: "What's on your mind?";
+  font-size: 1rem;
+  visibility: visible;}
+.public-DraftEditorPlaceholder-root {visibility: hidden;}
+.public-DraftEditorPlaceholder-root::before {
+  content: "What's up?";
+  visibility: visible;}
+
+/*Buttons*/
+.floating-window-buttons .button.close-button svg , .floating-window-buttons  .button.close-button .fill{
+border-radius: 100px;
+max-width: 14px;
+max-height: 14px;
+background-color:#EC6A5E;}
+.floating-window-buttons .button.maximize-button svg, .floating-window-buttons .button.maximize-button .fill{
+width:1px;}
+html .floating-window-buttons:hover, html .floating-window-buttons .button.close-button:hover{background-color: #202225;}
+html .floating-window-buttons:hover, html .floating-window-buttons .button.maximize-button:hover{background-color: #202225;}
+html #bd-editor-controls button:hover, html #bd-editor-controls button .btn.btn-primary:hover{background-color: #202225;}
+.floating-window-buttons .button.maximize-button svg , .floating-window-buttons  .button.maximize-button .fill{
+border-radius: 100px;
+max-width: 14px;
+max-height: 14px;
+background-color:#61C554;}
+.button.close-button{order:-1;}
+.title{order:2;}
+html .floating-window-buttons .button{width:25px}
+html .floating-window-buttons .button.close-button{padding-left:5px}
+html .floating-window.resizable{border-radius: 12px;}
+[d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"]{opacity: 0;}
+.fill{opacity: 0;}
+.floating-window-buttons {order: -1;}
+.floating-window-buttons .close-button>svg:hover {
+background-position: center;
+background-repeat: no-repeat;
+background-image: url('https://cdn.discordapp.com/attachments/872597872472907896/896612765731545088/close.png');
+background-size: 6px;}
+.floating-window-buttons .maximize-button>svg:hover {
+background-position: center;
+background-repeat: no-repeat;
+background-image: url('https://cdn.discordapp.com/attachments/872597872472907896/896612353070731274/expand.png');
+background-size: 6px}
+
+/*Don't touch or I smack you*/
+#app-mount [data-user-id="810543628307922955"] .bodyInnerWrapper-26fQXj, .textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9 {background: transparent;}
+#app-mount [data-user-id="810543628307922955"].userPopout-xaxa6l {background-image: url(https://cdn.discordapp.com/attachments/872597872472907896/876122913869299782/Screen_Shot_2021-08-14_at_9.09.59_AM.png);}
