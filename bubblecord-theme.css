@@ -1,24 +1,41 @@
 /*Main*/
-.panels-j1Uci_{border-radius: 17px;}
-.members-1998pB.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2, .contentRegionScroller-26nc1e, 
-.sidebarRegion-VFTUkN, .sidebarRegionScroller-3MXcoP, .sidebar-2K8pFh, 
-.chat-3bRxxu, .membersWrap-2h-GB4, .searchResultsWrap-3-pOjs, .container-1D34oG, .pageWrapper-1PgVDX{border-radius: 13px;}
+.pageWrapper-1PgVDX{margin-right:9px; margin-left:1px; margin-bottom:8.5px; margin-top:6px}
+.toolbar-1t6TWx::after{display:none}
+.nowPlayingColumn-2sl4cE{position:fixed; right: 9px; top: 0px; border-radius: 13px}
+.nowPlayingColumn-2sl4cE::after{position: relative}
+.inviteToolbar-3F-l2g{display:none}
+.videoControls-24w7Xp .toolbar-1t6TWx{background: transparent !important;}
+.callContainer-36WRfH{border-radius: 13px; margin-top: -55px; margin-right: -248px}
+.wrapper-2qzCYF.noChat-18KtBD.video--KPXCT{background-color: #181924;}
+.sidebar-2K8pFh{margin-right:9px; margin-left:1px; margin-bottom:70px; margin-top:6px}
+.chat-3bRxxu{margin-right:259px; margin-left:1px; margin-bottom:8.5px; margin-top:61px}
+.threadSidebar-1o3BTy{margin-bottom:8.5px; margin-top:6px; margin-right:9px; margin-left:9px;}
+.container-1D34oG{margin-right:9px; margin-left:1px; margin-bottom:8.5px; margin-top:6px}
+.chat-3bRxxu {overflow: visible;}
+.title-3qD0b-.container-1r6BKw.themed-ANHk51{position: absolute; top: -55px;}
+.chat-3bRxxu.threadSidebarOpen-vdkwIh{margin-right:0px}
+.membersWrap-2h-GB4{position:fixed; right: 9px; top: 6.3px; bottom: 8.5px}
+.membersWrap-2h-GB4::after{position: relative}
+.members-1998pB.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2, .title-3qD0b-.container-1r6BKw.themed-ANHk51{border-radius: 13px}
+.panels-j1Uci_{
+    position: absolute;
+    bottom:8.5px;
+    overflow:visible;
+    border-radius: 13px;
+    width: 240px}
+.panels-j1Uci_::after{position: relative}
+.contentRegionScroller-26nc1e, 
+.sidebarRegion-VFTUkN, .sidebar-2K8pFh, 
+.chat-3bRxxu, .membersWrap-2h-GB4, .searchResultsWrap-3-pOjs, .container-1D34oG, .pageWrapper-1PgVDX,
+.chat-3bRxxu.threadSidebarOpen-vdkwIh, .threadSidebar-1o3BTy,
+.scroller-3Vjo4T.thin-1ybCId.scrollerBase-289Jih{border-radius: 13px;}
 .minimap.slider-mouseover, .decorationsOverviewRuler{display:none}
 .sidebarRegion-VFTUkN, .sidebarRegionScroller-3MXcoP {flex: 0 0 auto;}
 .contentColumnDefault-1VQkGM {max-width: unset;}
 ::selection {background-color: rgba(24, 160, 244, 0.503);}
 .monaco-editor .selected-text {background-color: rgba(24, 160, 244, 0.503) !important;}
-.placeholder-37qJjk {visibility: hidden;}
-.placeholder-37qJjk::before {
-  content: "What's on your mind?";
-  font-size: 1rem;
-  visibility: visible;}
-.public-DraftEditorPlaceholder-root {visibility: hidden;}
-.public-DraftEditorPlaceholder-root::before {
-  content: "What's up?";
-  visibility: visible;}
 
-/*Buttons*/
+/*Mac Buttons For Floating Editor*/
 .floating-window-buttons .button.close-button svg , .floating-window-buttons  .button.close-button .fill{
 border-radius: 100px;
 max-width: 14px;
