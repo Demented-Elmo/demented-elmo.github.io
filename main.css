@@ -24,9 +24,16 @@
 /*Timestamp Removal*/
 .header-23xsNx > .timestamp-3ZCmNB {display: none;}
 
+/*Remove Submit A Bug On Friends Page*/
+.container-1D34oG [aria-label="Submit Bug"] {display: none;}
+
 /*Emoji Popout Cleanup*/
 .emojiSection-3Fb9ix .colorStandard-2KCXvj.size14-e6ZScH{display:none}
 .popoutContainer-1MXdqN{width:max-content}
+
+/*Remove Status Indicator On User Area*/
+.container-3baos1 .wrapper-3t9DeA > svg > svg, .container-3baos1 .pointerEvents-2zdfdO, .container-3baos1 .status-1XNdyw {display: none;}
+.container-3baos1 .wrapper-3t9DeA > svg > foreignObject, .container-3baos1 .avatarHint-2A3RNb > foreignObject, .container-3baos1 .avatarHint-2A3RNb {mask: unset; border-radius: 50%!important;}
 
 /*Banner Fixes*/
 .bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {display: none;}
