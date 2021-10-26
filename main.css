@@ -239,23 +239,6 @@ html .mention.wrapper-3WhCwL.mention.interactive{
   from {background-position: 0 0;}
   to {background-position: 130% 0;}}
 
-/*Search Bar*/
-.searchLearnMore-3SQUAj[aria-label*="Learn More"]{display:none}
-.searchResultsWrap-3-pOjs[aria-label*="Search Results"]{width:350px}
-#search-results-0.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-1.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-2.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-3.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-4.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-5.option-96V44q.searchOption-zQ-1l6{display:none}
-#search-results-0.option-96V44q.user-O3Czj0{display:none}
-#search-results-1.option-96V44q.user-O3Czj0{display:none}
-#search-results-2.option-96V44q.user-O3Czj0{display:none}
-#search-results-3.option-96V44q.user-O3Czj0{display:none}
-#search-results-4.option-96V44q.user-O3Czj0{display:none}
-#search-results-5.option-96V44q.user-O3Czj0{display:none}
-.resultsGroup-r_nuzN::before{display:none}
-
 /*Hover DMS animated*/
 .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:hover {
 animation: UserModalButtons 0.5s normal ease;}
