@@ -50,15 +50,14 @@
 #private-channels [href="/discovery"] {display: none}
 #private-channels [href="/store"] {display: none}
 
-/*Remove Maximum CSS Editor Size*/
+/*Editor Fixes*/
 #floating-editor-window.resizable {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
+#floating-editor-window {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
+.markdown-hover {display: none;}
 
 /*Hide Social Links And Info*/
 .socialLinks-3jqNFy{display: none}
 .info-1VyQPT{display: none}
-
-/*Hides CSS Tips*/
-.markdown-hover {display: none;}
 
 /*Remove Set A Server Nickname Button*/
 .setIdentityLink-1t8Ahd {display: none}
