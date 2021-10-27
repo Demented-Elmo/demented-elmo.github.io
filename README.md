@@ -5,4 +5,4 @@ If you want the webpage import for the main css, go [here](https://demented-elmo
 
 If you want the webpage import for the theme I use, go [here](https://demented-elmo.github.io/theme.css)
 
-![bruh](https://i.ibb.co/5G1nC7Q/bruh.png)
+![bruh](https://i.ibb.co/jv5Y0kr/oioi.png)
