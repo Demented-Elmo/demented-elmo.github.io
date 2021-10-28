@@ -126,12 +126,13 @@ top: 0.25ex;}
 
 /*Pin Home Button*/
 .guilds-1SWlCJ .tree-2wKJdG:focus {outline-color: transparent;}
-.guilds-1SWlCJ .scroller-1Bvpku {
-  contain: unset;
-  margin-top: 56px;}
-.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
-  position: fixed;
-  transform: translatey( -100% );}
+.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-11ICd5 {
+position: fixed;
+transform: translatey( calc(-100% - 0px) );}
+.guilds-1SWlCJ .serverCountWrap-k8F5De {
+position: fixed;
+transform: translatey( calc(-100% - 10px) );}
+.listItem-2Ig28I{border-radius: 13000px;}
 
 /*Offline Viewer*/
 .container-16j22k {background: transparent; pointer-events: none}
