@@ -27,6 +27,9 @@
 /*Remove Submit A Bug On Friends Page*/
 .container-1D34oG [aria-label="Submit Bug"] {display: none;}
 
+/*Sticker Radius*/
+.pngImage-33yLRP.stickerAsset-13j1W0, .pngImage-33yLRP.stickerAsset-13j1W0:hover{border-radius: 9px;}
+
 /*Emoji Popout Cleanup*/
 .emojiSection-3Fb9ix .colorStandard-2KCXvj.size14-e6ZScH{display:none}
 .popoutContainer-1MXdqN{width:max-content}
@@ -283,6 +286,7 @@ animation: UserModalButtons 0.5s normal ease;}
 #user-settings-cog-BetterDiscord--themerepo-repo{display:none}
 #user-settings-cog-BetterDiscord--Plugins .arrow-gKvcEx.caret-1XEpQV{display:none}
 .submenu-2-ysNh.menu-3sdvDG[aria-activedescendant="user-settings-cog-BetterDiscord--Plugins"] .submenuPaddingContainer-fiOCHc{display:none}
+#audio-device-context{display:none}
 
 /*Right Click Colors*/
 .item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ{color: rgb(216, 40, 33);}
