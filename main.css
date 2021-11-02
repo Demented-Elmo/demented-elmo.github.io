@@ -1,10 +1,7 @@
 /*DEMENTED_ELMO'S BETTERDISCORD CSS*/
 
 /*Hide Discovery*/
-.tutorialContainer-32VdNI+div{display: none;}
-
-/*Hide Add A Server*/
-.tutorialContainer-32VdNI{display: none;}
+.tutorialContainer-3alCZm+div{display: none;}
 
 /*Hide Wave To User DM Suggestion*/
 .containerExpanded-3MGTRr{display:none}
@@ -53,6 +50,11 @@
 #private-channels [href="/discovery"] {display: none}
 #private-channels [href="/store"] {display: none}
 
+/*Reposition Add A Server*/
+.circleIconButton-hZmpE8.selected-3mFF3I{background-color:rgb(41, 40, 63); color: rgb(70, 165, 82);}
+.tutorialContainer-3alCZm{bottom:2px; position: fixed; left:2px; opacity: 0;}
+.tutorialContainer-3alCZm:hover{opacity: 1;}
+
 /*Editor Fixes*/
 #floating-editor-window.resizable {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
 #floating-editor-window {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
@@ -61,9 +63,6 @@
 /*Hide Social Links And Info*/
 .socialLinks-3jqNFy{display: none}
 .info-1VyQPT{display: none}
-
-/*Remove Set A Server Nickname Button*/
-.setIdentityLink-1t8Ahd {display: none}
 
 /*New Create DM Location*/
 [aria-label="New Group DM"]{position:fixed;top: 50px;left:347px; opacity: 0}
@@ -127,15 +126,24 @@ top: 0.25ex;}
 .sidebarRegionScroller-3MXcoP {flex: 0 0 auto;}
 .contentColumnDefault-1VQkGM {max-width: unset;}
 
+/*Edit Server Profile Change To Button*/
+.setIdentityLink-1t8Ahd .colorLink-2vG20E.size14-e6ZScH{visibility: hidden;}
+.setIdentityLink-1t8Ahd .colorLink-2vG20E.size14-e6ZScH::before{
+    content: url('https://raw.githubusercontent.com/Demented-Eimo/demented-eimo.github.io/main/thing.svg');
+    visibility: visible;
+    position: fixed;
+    top:183px;
+    left:265px;}
+.setIdentityLink-1t8Ahd{position: fixed;}
+
 /*Pin Home Button*/
 .guilds-1SWlCJ .tree-2wKJdG:focus {outline-color: transparent;}
+.guilds-1SWlCJ .scroller-1Bvpku {
+contain: unset;
+margin-top: 56px;}
 .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-11ICd5 {
 position: fixed;
-transform: translatey( calc(-100% - 0px) );}
-.guilds-1SWlCJ .serverCountWrap-k8F5De {
-position: fixed;
-transform: translatey( calc(-100% - 10px) );}
-.listItem-2Ig28I{border-radius: 13000px;}
+transform: translatey( -100% );}
 
 /*Offline Viewer*/
 .container-16j22k {background: transparent; pointer-events: none}
