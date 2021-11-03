@@ -295,6 +295,9 @@ animation: UserModalButtons 0.5s normal ease;}
 #user-settings-cog-BetterDiscord--Plugins .arrow-gKvcEx.caret-1XEpQV{display:none}
 .submenu-2-ysNh.menu-3sdvDG[aria-activedescendant="user-settings-cog-BetterDiscord--Plugins"] .submenuPaddingContainer-fiOCHc{display:none}
 #audio-device-context{display:none}
+#user-settings-cog-Developer_Options{display:none}
+#user-settings-cog-Experiments{display:none}
+#user-settings-cog-Hotspot_Options{display:none}
 
 /*Right Click Colors*/
 .item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ{color: rgb(216, 40, 33);}
@@ -339,6 +342,13 @@ animation: UserModalButtons 0.5s normal ease;}
 .item-PXvHYJ.themed-OHr7kt[aria-controls*="hypesquad-online-tab"]{color: #7EDDC7;}
 .theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="hypesquad-online-tab"]{--background-modifier-hover: rgba(126, 221, 199, 0.103) !important;}
 .theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls*="hypesquad-online-tab"][aria-selected="true"]{background-color: #7EDDC7 !important; color: white;}
+.item-PXvHYJ.themed-OHr7kt[aria-controls="developer-options-tab"]{display:none}
+.item-PXvHYJ.themed-OHr7kt[aria-controls="hotspot-options-tab"]{display:none}
+.item-PXvHYJ.themed-OHr7kt[aria-controls="experiments-tab"]{order: 1;}
+.item-PXvHYJ.themed-OHr7kt[aria-controls="experiments-tab"]{color: plum;}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls="experiments-tab"]{--background-modifier-hover: rgba(221, 160, 221, 0.103) !important;}
+.theme-dark .item-PXvHYJ.themed-OHr7kt[aria-controls="experiments-tab"][aria-selected="true"]{background-color: plum !important; color: white;}
+
 
 /*Toggle Buttons*/
 .separator-2I32lJ{display: none;}
