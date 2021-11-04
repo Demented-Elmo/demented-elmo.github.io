@@ -47,7 +47,3 @@ Stay updated here in case of any updates!
 **9/28/2021**
 ###### Created Changelog!
 #
-**Webpage Imports**
-###### If you want the webpage import for the main css, go [here](https://demented-elmo.github.io/main.css)
-###### If you want the webpage import for the theme I use, go [here](https://demented-elmo.github.io/theme.css)
-#
