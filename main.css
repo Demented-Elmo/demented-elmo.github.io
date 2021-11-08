@@ -358,7 +358,9 @@ animation: UserModalButtons 0.5s normal ease;}
 .repoHeader-2KfNvH .item-PXvHYJ.themed-OHr7kt[aria-controls*="themes-tab"][aria-selected="false"]{color:rgb(185, 185, 185) !important}
 
 /*Toggle Buttons*/
+/*
 .separator-2I32lJ{display: none;}
+*/
 .wrapper-3_530D{display: none}
 .button-3AYNKb{display: none;}
 #message-tts, #message-actions-tts {display:none;}
