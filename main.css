@@ -3,6 +3,9 @@
 /*Hide Discovery*/
 .tutorialContainer-3alCZm+div{display: none;}
 
+/*Hide Nitro Tab*/
+[data-list-item-id="private-channels-uid_80___nitro"]{display:none}
+
 /*Hide Wave To User DM Suggestion*/
 .containerExpanded-3MGTRr{display:none}
 
