@@ -3,9 +3,6 @@
 When a feature is added, I will add what was changed and the date.
 Stay updated here in case of any updates!
 #
-**11/5/21**
-###### Replaced context menu with mac context menu
-#
 **11/4/21**
 ###### Made Changelog cool!
 #
