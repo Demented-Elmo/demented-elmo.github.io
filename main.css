@@ -21,8 +21,9 @@
 /*Better Long File Name Viewer*/
 .audioMetadata-1Hrt8T::before {min-width: 24px;}
 
-/*Timestamp Removal*/
-.header-2jRmjb > .timestamp-p1Df1m {display: none;}
+/*Hide Message Date Until Hover*/
+.header-2jRmjb > .timestamp-p1Df1m {opacity: 0;}
+.messageListItem-ZZ7v6g:hover .header-2jRmjb > .timestamp-p1Df1m {opacity: 1 !important;}
 
 /*Remove Submit A Bug On Friends Page*/
 .container-2cd8Mz [aria-label="Submit Bug"] {display: none;}
