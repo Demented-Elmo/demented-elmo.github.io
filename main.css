@@ -196,23 +196,23 @@ animation: UserModalButtons 0.5s normal ease;}
 90% {transform: translateY(0px);}}
 
 /*Right Click GUI Additions*/
-/*
-.scroller-1bVxF5.thin-31rlnD.scrollerBase-_bVAAt{border-radius: 7px;}
+#message-personalpins-pin-note, #user-settings-cog-Payment_Flow_Modals, #user-settings-cog-Dismissible_Content_Options, #user-settings-cog-copy-user{display:none}
+.scroller-1bVxF5.thin-31rlnD.scrollerBase-_bVAAt{border-radius: 5px;}
 :root {--ContextMenuBackgroundColorDark: #292937 !important;}
 .menu-1QACrS {
   background: var(--ContextMenuBackgroundColorDark) !important;
   border: solid 1.9px #000 !important;
-  border-radius: 8px !important;}
+  border-radius: 7px !important;}
 .menu-1QACrS:before {
   content:"" !important;
   width: 100% !important;
   height: 100% !important;
   position: absolute !important;
   backdrop-filter: var(--ContextMenuBackgroundBlur) !important;
-  border-radius: 8px !important;
+  border-radius: 100px !important;
   box-shadow: inset 0 0 0 1px #fff3 !important;
   z-index: -1 !important;}
-*/
+.separator-1So4YB{display:none}
 
 /*Animated Buttons*/
 .button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
@@ -306,7 +306,6 @@ animation: UserModalButtons 0.5s normal ease;}
 #user-settings-cog-Hotspot_Options{display:none}
 
 /*Right Click Colors*/
-/*
 .item-1OdjEX.labelContainer-2vJzYL.colorDanger-3n-KnP.colorDefault-CDqZdO{color: rgb(216, 40, 33);}
 .theme-dark .item-1OdjEX.labelContainer-2vJzYL.colorDanger-3n-KnP.colorDefault-CDqZdO.focused-3qFvc8{background-color: rgba(216, 39, 33, 0.103)!important; color: rgb(216, 40, 33);}
 .theme-dark .item-1OdjEX.labelContainer-2vJzYL.colorBrand-3cPPsm.colorDefault-CDqZdO.focused-3qFvc8{background-color: rgba(91, 100, 234, 0.103)!important; color: rgb(91, 100, 234);}
@@ -326,7 +325,6 @@ animation: UserModalButtons 0.5s normal ease;}
 .radioSelection-1UHp0b{color:#5B64EA !important}
 .checkbox-hADx5o{color:#5B64EA !important}
 .check-3HZJs4{color:#FFFFFF !important}
-*/
 
 /*Settings*/
 .item-3XjbnG.themed-2-lozF[aria-controls*="language-tab"]{display: none;}
