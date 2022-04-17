@@ -11,3 +11,24 @@
     background-image: url('https://nyri4.github.io/Discolored/assets/pinned.svg') !important; }
 #app-mount .noResults-1ceiMB .errorStateIcon-3y6XWh{
 	background-image: url('https://nyri4.github.io/Discolored/assets/no_results.svg') !important; }
+
+/*Boost Badge Fix*/
+img[src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"],
+img[src="/assets/22f99ed6e34eaca48950254c70f8fe8d.svg"],
+img[src="/assets/4a2618502278029ce88adeea179ed435.svg"],
+img[src="/assets/fbafa6adb7c49a6a2c3822521ff2af2f.svg"],
+img[src="/assets/0599f90e32c15b532647163edd72f70a.svg"],
+img[src="/assets/e07c08cdc72bcc78b69c76d2c7ceb344.svg"],
+img[src="/assets/c7f26927db5e7806790f4e968038630a.svg"],
+img[src="/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
+img[src="/assets/d96ed283b74de75692487b7499fb8d09.svg"]{
+transform: translate(0px, 0px);}
+
+/*THEME SETTINGS*/
+:root{
+/*Settings Icons*/
+	--settingsicons: 1;
+/*Animated Badges*/
+    --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+    --badges-everywhere-size: 15px; /*default = 15px*/
