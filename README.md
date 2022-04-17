@@ -1,5 +1,5 @@
 # **Demented_Elmo's BetterDiscord CSS**
-**This repo is for Betterdiscord Custom CSS! Be sure to check the Changelog for any updates!**
+**This repo is for Betterdiscord Custom CSS!**
 
 If you want the webpage import for the main css, go [here](https://demented-elmo.github.io/main.css)
 
