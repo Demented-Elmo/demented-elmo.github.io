@@ -110,6 +110,8 @@
 .statusItem-2hiCNB .description-3Cwkxk, [aria-label="Clear Status"], 
 .deleteButton-k8a4Sa.cursorPointer-B3uwDA,
 #status-picker-switch-account--manage-accounts{display:none !important}
+.customStatusWithEmoji-Y8lMLP.statusItem-2hiCNB > .emoji{margin-left:-153px !important}
+.customStatusWithEmoji-Y8lMLP.statusItem-2hiCNB > .customText-36Uwzc{margin-left:33px !important}
 
 /*Emoji Picker Reorder*/
 #emoji-picker-tab{order:-1;}
