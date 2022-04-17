@@ -249,34 +249,6 @@ animation: UserModalButtons 0.5s normal ease;}
   50% {transform: translateY(-5px);}
   100% {transform: translateY(0px);}}
 
-/*Rainbow wave mentions*/
-html .mention.wrapper-1ZcZW-.mention.interactive{
-  background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
-  animation: gradient-border 3s linear infinite;
-  background-size: 400% 100%;
-  color: transparent !important;
-  -webkit-background-clip: text;
-  background-clip: text;
-  position: relative;
-  z-index: 1;}
-@keyframes gradient-border {
-  from {background-position: 0 0;}
-  to {background-position: 130% 0;}}
-
-/*Rainbow Wave Role Mentions*/
-.wrapper-1ZcZW-.iconMention-3WxjBe.iconMentionText-1_WCtN.mention.interactive{padding-left:0px}
-.roleMention-11Aaqi.desaturate-_Twf3u.wrapper-1ZcZW-.mention{
-  background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
-  animation: gradient-border 4s linear infinite;
-  background-size: 400% 100%;
-  color: transparent !important;
-  -webkit-background-clip: text;
-  background-clip: text;
-  z-index: 1;}
-@keyframes gradient-border {
-  from {background-position: 0 0;}
-  to {background-position: 130% 0;}}
-
 /*Hover DMS animated*/
 .channel-1Shao0.container-1oeRFJ.clickable-28SzVr:hover {
 animation: UserModalButtons 0.5s normal ease;}
