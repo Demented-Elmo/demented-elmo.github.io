@@ -24,6 +24,12 @@ img[src="/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
 img[src="/assets/d96ed283b74de75692487b7499fb8d09.svg"]{
 transform: translate(0px, 0px);}
 
+/*Box Shadow*/
+#app-mount .container-ZMc96U.themed-Hp1KC_, 
+.container-ZMc96U.themed-Hp1KC_, .container-2cd8Mz, 
+.tabBody-2dgbAs:before, .header-3OsQeK, .searchBar-3TnChZ, 
+.animatedContainer-2laTjx{box-shadow: none;}
+
 /*THEME SETTINGS*/
 :root{
 /*Settings Icons*/
