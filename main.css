@@ -18,6 +18,15 @@
 /*Thread Notifcations*/
 .container-3O_wAf {display:none}
 
+/*Remove Follow Banner On Announcemnets*/
+.wrapper-2SplAX {display: none;}
+
+/*Remove Role Filter*/
+.roleFilter-btnContainer, .roleFilter-header{display:none}
+
+/*Remove Boost Goal*/
+.container-2giAcK{display:none !important}
+
 /*Better Long File Name Viewer*/
 .audioMetadata-1Hrt8T::before {min-width: 24px;}
 
@@ -107,6 +116,13 @@
 .children-3xh0VB >h3,
 .item-3XjbnG,
 .name-28HaxV {text-transform: capitalize;}
+
+/*Message Buttons*/
+.button-3bklZh[aria-label="Create Thread"], .button-3bklZh[aria-label="Copy Link"], 
+.button-3bklZh[aria-label="Copy ID"], [aria-label="Copy RAW Message"] > .button-3bklZh,
+.button-3bklZh[aria-label="More"], [aria-label="Copy Message (Custom)"] > .button-3bklZh{display:none !important}
+.button-3bklZh[aria-label="Mark Unread"]{order:-1 !important}
+.button-3bklZh.cursorPointer-B3uwDA{order:-2 !important}
 
 /*Hide Top Bar Icons*/
 [aria-label*="Help"]{display: none;}
