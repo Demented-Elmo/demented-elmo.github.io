@@ -55,6 +55,10 @@
 .bannerPremium-kkSkPv .premiumIconWrapper-32h0Ri {display: none;}
 .bannerOverlay-1uIerX{display: none;}
 
+/*Setting Spacing*/
+.sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {flex: 0 0 auto;}
+.contentColumnDefault-3eyv5o {max-width: unset;}
+
 /*Emoji Picker*/
 .sprite-2lxwfc {background: url("https://cdn.discordapp.com/attachments/872597872472907896/876198404605231204/Emojis.png");}
 
@@ -172,6 +176,17 @@ margin-top: 56px;}
 .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS {
 position: fixed;
 transform: translatey( -100% );}
+
+/*Raw Editor Fixes*/
+.markdown-hover {display: none;}
+#floating-editor-window.resizable {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
+.content-1jQy2l:before{display: none !important;}
+::selection {background-color: rgba(24, 160, 244, 0.503);}
+.monaco-editor .selected-text {background-color: rgba(24, 160, 244, 0.503) !important;}
+.context-view.monaco-menu-container{display:none}
+.monaco-editor-hover{left:310px !important;}
+html .floating-window.resizable{min-width: unset; min-height: unset; max-width: unset; max-height: unset;}
+#floating-editor-window.resizable #bd-editor-controls {display: none;}
 
 /*Offline Viewer*/
 .container-2RRFHK {background: transparent; pointer-events: none}
