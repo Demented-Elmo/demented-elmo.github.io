@@ -30,6 +30,21 @@ transform: translate(0px, 0px);}
 .tabBody-2dgbAs:before, .header-3OsQeK, .searchBar-3TnChZ, 
 .animatedContainer-2laTjx{box-shadow: none;}
 
+/*Setting Spacing*/
+.sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {flex: 0 0 auto;}
+.contentColumnDefault-3eyv5o {max-width: unset;}
+
+/*Raw Editor Fixes*/
+.markdown-hover {display: none;}
+#floating-editor-window.resizable {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
+.content-1jQy2l:before{display: none !important;}
+::selection {background-color: rgba(24, 160, 244, 0.503);}
+.monaco-editor .selected-text {background-color: rgba(24, 160, 244, 0.503) !important;}
+.context-view.monaco-menu-container{display:none}
+.monaco-editor-hover{left:310px !important;}
+html .floating-window.resizable{min-width: unset; min-height: unset; max-width: unset; max-height: unset;}
+#floating-editor-window.resizable #bd-editor-controls {display: none;}
+
 /*THEME SETTINGS*/
 :root{
 /*Settings Icons*/
