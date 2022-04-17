@@ -40,6 +40,9 @@
 /*Sticker Radius*/
 .pngImage-1vIgLy.stickerAsset-4c7Oqy, .pngImage-1vIgLy.stickerAsset-4c7Oqy:hover{border-radius: 9px;}
 
+/*Remove "Account Removal" Section*/
+.userSettingsSecurity-2kODPN.marginTop40-Q4o1tS + .divider-_0um2u.marginTop40-Q4o1tS + .marginTop40-Q4o1tS{display:none}
+
 /*Emoji Popout Cleanup*/
 .emojiSection-3QtaWO .colorStandard-21JIj7.size14-3fJ-ot{display:none}
 .popoutContainer-2wbmiM{width:max-content}
