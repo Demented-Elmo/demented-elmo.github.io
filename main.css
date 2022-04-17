@@ -401,6 +401,21 @@ html .floating-window.resizable{border-radius: 12px;}
 .item-3XjbnG.themed-2-lozF[aria-controls="hotspot-options-tab"]{display:none}
 .item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"]{order: 1;}
 .item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"]{color: plum;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="streamer-mode-tab"]{color: rgb(117, 80, 182);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="streamer-mode-tab"]{--background-modifier-hover: rgba(117, 80, 182, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="streamer-mode-tab"][aria-selected="true"]{background-color: rgb(117, 80, 182) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="my-account-tab"]{color: rgb(191, 101, 102);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="my-account-tab"]{--background-modifier-hover: rgba(191, 101, 102, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="my-account-tab"][aria-selected="true"]{background-color: rgb(191, 101, 102) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="connections-tab"]{color: rgb(1, 160, 1);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="connections-tab"]{--background-modifier-hover: rgba(1, 160, 1, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="connections-tab"][aria-selected="true"]{background-color: rgb(1, 160, 1) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="nitro-tab"]{color: rgb(90, 101, 234);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="nitro-tab"]{--background-modifier-hover: rgba(90, 101, 234, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="nitro-tab"][aria-selected="true"]{background-color: rgb(90, 101, 234) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="boost-tab"]{color: rgb(238, 123, 243);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="boost-tab"]{--background-modifier-hover: rgba(238, 123, 243, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="boost-tab"][aria-selected="true"]{background-color: rgb(238, 123, 243) !important; color: white;}
 .theme-dark .item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"]{--background-modifier-hover: rgba(221, 160, 221, 0.103) !important;}
 .theme-dark .item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"][aria-selected="true"]{background-color: plum !important; color: white;}
 .repoHeader-2KfNvH .item-3XjbnG.themed-2-lozF[aria-controls*="plugins-tab"][aria-selected="true"]{background-color: transparent !important;}
