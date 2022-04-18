@@ -37,7 +37,7 @@ transform: translate(0px, 0px);}
     max-height: 14px !important;
     background-color:#EC6A5E !important;}
 .floating-window-buttons .button.maximize-button svg, .floating-window-buttons .button.maximize-button .fill{
-    width:1px !important;}
+    width:14px !important;}
 html .floating-window-buttons:hover, html .floating-window-buttons .button.close-button:hover{background-color: #181924 !important;}
 html .floating-window-buttons:hover, html .floating-window-buttons .button.maximize-button:hover{background-color: #181924 !important;}
 html #bd-editor-controls button:hover, html #bd-editor-controls button .btn.btn-primary:hover{background-color: #181924 !important;}
