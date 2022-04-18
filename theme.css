@@ -33,43 +33,43 @@ transform: translate(0px, 0px);}
 
 /*Mac OSX Editor*/
 .floating-window-buttons .button.close-button svg , .floating-window-buttons  .button.close-button .fill{
-    border-radius: 100px;
-    max-width: 14px;
-    max-height: 14px;
-    background-color:#EC6A5E;}
+    border-radius: 100px !important;
+    max-width: 14px !important;
+    max-height: 14px !important;
+    background-color:#EC6A5E !important;}
 .floating-window-buttons .button.maximize-button svg, .floating-window-buttons .button.maximize-button .fill{
-    width:1px;}
-html .floating-window-buttons:hover, html .floating-window-buttons .button.close-button:hover{background-color: #181924;}
-html .floating-window-buttons:hover, html .floating-window-buttons .button.maximize-button:hover{background-color: #181924;}
-html #bd-editor-controls button:hover, html #bd-editor-controls button .btn.btn-primary:hover{background-color: #181924;}
+    width:1px !important;}
+html .floating-window-buttons:hover, html .floating-window-buttons .button.close-button:hover{background-color: #181924 !important;}
+html .floating-window-buttons:hover, html .floating-window-buttons .button.maximize-button:hover{background-color: #181924 !important;}
+html #bd-editor-controls button:hover, html #bd-editor-controls button .btn.btn-primary:hover{background-color: #181924 !important;}
 .floating-window-buttons .button.maximize-button svg , .floating-window-buttons  .button.maximize-button .fill{
-    border-radius: 100px;
-    max-width: 14px;
-    max-height: 14px;
-    background-color:#61C554;}
-.button.close-button{order:-1;}
-.title{order:2;}
-html .floating-window-buttons .button{width:25px}
-html .floating-window-buttons .button.close-button{padding-left:5px}
-html .floating-window.resizable{border-radius: 12px;}
-html #bd-editor-controls button{padding-right:1000663px}
-html #bd-editor-controls button{width:1000700px}
-[d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"]{opacity: 0;}
-.fill{opacity: 0;}
+    border-radius: 100px !important;
+    max-width: 14p !importantx;
+    max-height: 14px !important;
+    background-color:#61C554 !important;}
+.button.close-button{order:-1 !important;}
+.title{order:2 !important;}
+html .floating-window-buttons .button{width:25px !important}
+html .floating-window-buttons .button.close-button{padding-left:5px !important}
+html .floating-window.resizable{border-radius: 12px !important;}
+html #bd-editor-controls button{padding-right:1000663px !important}
+html #bd-editor-controls button{width:1000700px !important}
+[d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"]{opacity: 0 !important;}
+.fill{opacity: 0 !important;}
 .floating-window-buttons:hover .button.close-button>svg:hover {
-background-position: center;
-background-repeat: no-repeat;
-background-image: url('https://cdn.discordapp.com/attachments/872597872472907896/896612765731545088/close.png');
-background-size: 6px;}
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-image: url('https://cdn.discordapp.com/attachments/872597872472907896/896612765731545088/close.png') !important;
+background-size: 6px !important;}
 .floating-window-buttons:hover .maximize-button>svg:hover {
-background-position: center;
-background-repeat: no-repeat;
-background-image: url('https://cdn.discordapp.com/attachments/872597872472907896/896612353070731274/expand.png');
-background-size: 6px}
-.floating-window-buttons {order: -1;}
-html .floating-window.resizable{border-radius: 12px;}
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-image: url('https://cdn.discordapp.com/attachments/872597872472907896/896612353070731274/expand.png') !important;
+background-size: 6px !important}
+.floating-window-buttons {order: -1 !important;}
+html .floating-window.resizable{border-radius: 12px !important;}
 
-.item-3XjbnG.themed-2-lozF[aria-controls*="language-tab"]{display: none;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="language-tab"]{display: none !important;}
 
 /*Setting Spacing*/
 .sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {flex: 0 0 auto;}
