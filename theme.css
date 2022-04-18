@@ -44,7 +44,7 @@ html .floating-window-buttons:hover, html .floating-window-buttons .button.maxim
 html #bd-editor-controls button:hover, html #bd-editor-controls button .btn.btn-primary:hover{background-color: #181924 !important;}
 .floating-window-buttons .button.maximize-button svg , .floating-window-buttons  .button.maximize-button .fill{
     border-radius: 100px !important;
-    max-width: 14p !importantx;
+    max-width: 14px !important;
     max-height: 14px !important;
     background-color:#61C554 !important;}
 .button.close-button{order:-1 !important;}
