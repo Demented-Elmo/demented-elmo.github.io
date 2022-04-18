@@ -377,6 +377,51 @@ background-size: 6px}
 .floating-window-buttons {order: -1;}
 html .floating-window.resizable{border-radius: 12px;}
 
+/*Toggle Right Click Buttons*/
+.wrapper--nA0oy{display: none}
+.button-2fCJ0o{display: none;}
+#message-tts, #message-actions-tts {display:none;}
+#message-edit, #message-actions-edit {display:none;}
+#message-reply, #message-actions-reply {display:none;}
+#message-copy-link, #message-actions-copy-link {display:none;}
+#message-mark-unread, #message-actions-mark-unread {display:none;}
+#message-delete, #message-actions-delete {display:none;}
+#message-add-reaction, #message-actions-add-reaction {display:none;}
+#message-thread, #message-actions-thread {display:none;}
+#message-pin, #message-actions-pin {display:none;}
+#message-apps, #message-actions-apps {display:none;}
+#message-reactions, #message-actions-reactions {display:none;}
+#textarea-context-cut, #textarea-context-actions-cut {display:none;}
+#textarea-context-paste, #textarea-context-actions-paste {display:none;}
+#textarea-context-copy, #textarea-context-actions-copy {display:none;}
+#textarea-context-languages, #textarea-context-actions-languages {display:none;}
+#textarea-context-sticker-suggestions, #textarea-context-actions-sticker-suggestions {display:none;}
+#user-context-mention, #user-context-actions-mention {display:none;}
+#user-context-imageutilities-main-subitem, #user-context-actions-imageutilities-main-subitem {display:none;}
+#user-context-note, #user-context-actions-note {display:none;}
+#user-context-roles, #user-context-actions-roles {display:none;}
+#user-context-call, #user-context-actions-call {display:none;}
+#user-context-invite-to-server, #user-context-actions-invite-to-server {display:none;}
+#guild-context-imageutilities-main-subitem {display:none;}
+#guild-context-privacy {display:none;}
+#guild-context-change-nickname {display:none;}
+#guild-context-guild-profile {display:none;}
+#guild-context-create-channel {display:none;}
+#guild-context-create-category {display:none;}
+#user-context-add-friend-nickname, #user-context-actions-add-friend-nickname {display:none;}
+#message-copy, #message-actions-copy {display:none;}
+#message-search-google, #message-actions-search-google {display:none;}
+#message-translator-search-translation, #message-actions-translator-search-translation {display:none;}
+#channel-context-invite-people{display: none;}
+#channel-context-showhiddenchannels-permissions{display:none}
+#textarea-context-chataliases-add-alias{display:none}
+#textarea-context-chatfilter-add-filter{display:none}
+#guild-context-serverfolders-auto-read-folder{display:none}
+#guild-context-membercount-toggle{display:none}
+#guild-context-serverfolders-submenu-add{display:none}
+#message-chataliases-add-alias{display:none}
+#message-chatfilter-add-filter{display:none}
+
 /*Settings*/
 .item-3XjbnG.themed-2-lozF[aria-controls*="language-tab"]{display: none;}
 .item-3XjbnG.themed-2-lozF[aria-controls*="billing-tab"]{display: none;}
@@ -424,6 +469,39 @@ html .floating-window.resizable{border-radius: 12px;}
 .repoHeader-2KfNvH .item-3XjbnG.themed-2-lozF[aria-controls*="themes-tab"][aria-selected="true"]{background-color: transparent !important;}
 .repoHeader-2KfNvH .item-3XjbnG.themed-2-lozF[aria-controls*="plugins-tab"][aria-selected="false"]{color:rgb(185, 185, 185) !important}
 .repoHeader-2KfNvH .item-3XjbnG.themed-2-lozF[aria-controls*="themes-tab"][aria-selected="false"]{color:rgb(185, 185, 185) !important}
+.item-3XjbnG.themed-2-lozF[aria-controls*="delete-tab"]{color: rgb(248, 51, 51);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="delete-tab"]{--background-modifier-hover: rgba(248, 51, 51, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="delete-tab"][aria-selected="true"]{background-color: rgb(248, 51, 51) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="bans-tab"]{color: rgb(248, 51, 51);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="bans-tab"]{--background-modifier-hover: rgba(248, 51, 51, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="bans-tab"][aria-selected="true"]{background-color: rgb(248, 51, 51) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="invites-tab"]{color: rgb(93, 99, 225);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="invites-tab"]{--background-modifier-hover: rgba(93, 99, 225, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="invites-tab"][aria-selected="true"]{background-color: rgb(93, 99, 225) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="partner-tab"]{color: rgb(76, 90, 243);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="partner-tab"]{--background-modifier-hover: rgba(76, 90, 243, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="partner-tab"][aria-selected="true"]{background-color: rgb(76, 90, 243) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="guild_premium-tab"]{color: rgb(238, 123, 243);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="guild_premium-tab"]{--background-modifier-hover: rgba(238, 123, 243, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="guild_premium-tab"][aria-selected="true"]{background-color: rgb(238, 123, 243) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="emoji-tab"]{color: rgb(255,222,52);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="emoji-tab"]{--background-modifier-hover: rgba(255,222,52, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="emoji-tab"][aria-selected="true"]{background-color: rgb(255,222,52) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="stickers-tab"]{color: rgb(171, 121, 236);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="stickers-tab"]{--background-modifier-hover: rgba(171, 121, 236, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="stickers-tab"][aria-selected="true"]{background-color: rgb(171, 121, 236) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="members-tab"]{color: rgb(1, 160, 1);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="members-tab"]{--background-modifier-hover: rgba(1, 160, 1, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="members-tab"][aria-selected="true"]{background-color: rgb(1, 160, 1) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="discovery-tab"]{color: rgb(90, 163, 100);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="discovery-tab"]{--background-modifier-hover: rgba(90, 163, 100, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="discovery-tab"][aria-selected="true"]{background-color: rgb(90, 163, 100) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="overview-tab"]{color: rgb(197, 128, 0);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="overview-tab"]{--background-modifier-hover: rgba(197, 128, 0, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="overview-tab"][aria-selected="true"]{background-color: rgb(197, 128, 0) !important; color: white;}
+.item-3XjbnG.themed-2-lozF[aria-controls*="roles-tab"]{color: rgb(82, 185, 219);}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="roles-tab"]{--background-modifier-hover: rgba(82, 185, 219, 0.103) !important;}
+.theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="roles-tab"][aria-selected="true"]{background-color: rgb(82, 185, 219) !important; color: white;}
 [aria-controls="developer-options-tab"],
 [aria-controls="hotspot-options-tab"],
 [aria-controls="payment-flow-modals-tab"],
@@ -438,48 +516,3 @@ html .floating-window.resizable{border-radius: 12px;}
 [aria-controls="themerepo-tab"] + .separator-2wx7h6{order:2 !important}
 [aria-controls="payment-flow-modals-tab"] + .separator-2wx7h6, .theme-dark .item-3XjbnG.themed-2-lozF[aria-controls*="logout-tab"] + .separator-2wx7h6{display:none !important}
 [aria-controls="themerepo-tab"], [aria-controls="pluginrepo-tab"]{display:none !important}
-
-/*Toggle Right Click Buttons*/
-.wrapper--nA0oy{display: none}
-.button-2fCJ0o{display: none;}
-#message-tts, #message-actions-tts {display:none;}
-#message-edit, #message-actions-edit {display:none;}
-#message-reply, #message-actions-reply {display:none;}
-#message-copy-link, #message-actions-copy-link {display:none;}
-#message-mark-unread, #message-actions-mark-unread {display:none;}
-#message-delete, #message-actions-delete {display:none;}
-#message-add-reaction, #message-actions-add-reaction {display:none;}
-#message-thread, #message-actions-thread {display:none;}
-#message-pin, #message-actions-pin {display:none;}
-#message-apps, #message-actions-apps {display:none;}
-#message-reactions, #message-actions-reactions {display:none;}
-#textarea-context-cut, #textarea-context-actions-cut {display:none;}
-#textarea-context-paste, #textarea-context-actions-paste {display:none;}
-#textarea-context-copy, #textarea-context-actions-copy {display:none;}
-#textarea-context-languages, #textarea-context-actions-languages {display:none;}
-#textarea-context-sticker-suggestions, #textarea-context-actions-sticker-suggestions {display:none;}
-#user-context-mention, #user-context-actions-mention {display:none;}
-#user-context-imageutilities-main-subitem, #user-context-actions-imageutilities-main-subitem {display:none;}
-#user-context-note, #user-context-actions-note {display:none;}
-#user-context-roles, #user-context-actions-roles {display:none;}
-#user-context-call, #user-context-actions-call {display:none;}
-#user-context-invite-to-server, #user-context-actions-invite-to-server {display:none;}
-#guild-context-imageutilities-main-subitem {display:none;}
-#guild-context-privacy {display:none;}
-#guild-context-change-nickname {display:none;}
-#guild-context-guild-profile {display:none;}
-#guild-context-create-channel {display:none;}
-#guild-context-create-category {display:none;}
-#user-context-add-friend-nickname, #user-context-actions-add-friend-nickname {display:none;}
-#message-copy, #message-actions-copy {display:none;}
-#message-search-google, #message-actions-search-google {display:none;}
-#message-translator-search-translation, #message-actions-translator-search-translation {display:none;}
-#channel-context-invite-people{display: none;}
-#channel-context-showhiddenchannels-permissions{display:none}
-#textarea-context-chataliases-add-alias{display:none}
-#textarea-context-chatfilter-add-filter{display:none}
-#guild-context-serverfolders-auto-read-folder{display:none}
-#guild-context-membercount-toggle{display:none}
-#guild-context-serverfolders-submenu-add{display:none}
-#message-chataliases-add-alias{display:none}
-#message-chatfilter-add-filter{display:none}
