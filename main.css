@@ -465,7 +465,9 @@ animation: UserModalButtons 0.5s normal ease;}
 [aria-controls="friend-requests-tab"],
 [aria-controls="activity-privacy-tab"],
 #user-settings-cog-Activity_Privacy,
-#user-settings-cog-Friend_Requests{display:none !important}
+#user-settings-cog-Friend_Requests,
+#textarea-context-suggestions,
+#textarea-context-submit-button{display:none !important}
 [aria-controls="experiments-tab"]{order:1 !important}
 [aria-controls="logout-tab"]{order:2; color:rgb(248, 51, 51) !important}
 [aria-controls="themerepo-tab"] + .separator-2wx7h6{order:2 !important}
