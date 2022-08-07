@@ -70,11 +70,6 @@
 #private-channels [href="/discovery"] {display: none}
 #private-channels [href="/store"] {display: none}
 
-/*Reposition Add A Server*/
-.circleIconButton-1VxDrg.selected-2r1Hvo{background-color:rgb(41, 40, 63); color: rgb(70, 165, 82);}
-.tutorialContainer-2jwoiB{bottom:2px; position: fixed; left:2px; opacity: 0;}
-.tutorialContainer-2jwoiB:hover{opacity: 1;}
-
 /*Editor Fixes*/
 #floating-editor-window.resizable {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
 #floating-editor-window {max-height: unset; max-width: unset; min-width: unset; min-height: unset;}
@@ -137,6 +132,14 @@
 .button-3bklZh[aria-label="More"], [aria-label="Copy Message (Custom)"] > .button-3bklZh{display:none !important}
 .button-3bklZh[aria-label="Mark Unread"]{order:-1 !important}
 .button-3bklZh.cursorPointer-B3uwDA{order:-2 !important}
+
+/*Reposition Add A Server*/
+.circleIconButton-1VxDrg.selected-2r1Hvo{background-color:rgb(41, 40, 63); color: rgb(70, 165, 82);}
+.tutorialContainer-2jwoiB{bottom:2px; position: fixed; left:2px; opacity: 0;}
+.tutorialContainer-2jwoiB:hover{opacity: 1;}
+[aria-label="Servers"] + .tutorialContainer-2jwoiB{height:0px !important; bottom:59px}
+[aria-label="Add a Server"]{height:30px; border-radius: -1000px !important; opacity: 0; margin-top:9px !important}
+[aria-label="Add a Server"]:hover{border-radius: 100px !important; opacity: 1 !important;}
 
 /*Hide Top Bar Icons*/
 [aria-label*="Help"]:not(.roleRow-3LoHQ6, [aria-label="Helper"], .roleCircle-1EgnFN){display: none;}
