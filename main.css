@@ -375,6 +375,7 @@ animation: UserModalButtons 0.5s normal ease;}
 #guild-context-serverfolders-submenu-add{display:none}
 #message-chataliases-add-alias{display:none}
 #message-chatfilter-add-filter{display:none}
+#user-settings-cog-Passport, #user-settings-cog-Sessions{display:none !important}
 
 /*Settings*/
 .item-3XjbnG.themed-2-lozF[aria-controls*="language-tab"]{display: none;}
